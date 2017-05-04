@@ -1,0 +1,33 @@
+bootstrap:
+  version: 3.3.7
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/bootstrap/css/bootstrap-theme.min.css: {}
+  js:
+    vendor/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+
+base:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/grant.js: {}
+  dependencies:
+    - core/jquery
+
+slick:
+  version: 1.6.0
+  css:
+    theme:
+      vendor/slick/slick/slick.css: {}
+      vendor/slick/slick/slick-theme.css: {}
+  js:
+    vendor/jquery-migrate/jquery-migrate-1.4.1.min.js: {}
+    vendor/slick/slick/slick.min.js: {}
+  dependencies:
+    - core/jquery
+
