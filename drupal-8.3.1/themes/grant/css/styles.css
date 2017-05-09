@@ -13,7 +13,7 @@ h3.tag_descript {
     text-align: center;
 }
 
-/* Header region */
+/* Header region
 .region-header {
     background-color: white;
     max-height: 126px;
@@ -22,7 +22,7 @@ h3.tag_descript {
     margin:auto; 
     z-index:100000; 
     width:100%;
-}
+}*/
 
 /* primary menu */
 ul.menu {
@@ -137,4 +137,18 @@ ul.menu {
 .region-after-content {
     padding: 30px 0;
     background-image: url("/sites/default/files/img/giraffe_print2.png");
+}
+
+/* Footer */
+.left-footer {
+    float: left;
+    width: 35em;
+    padding: 15px 0 30px 20px;
+    background-color: #D3D3D3
+}
+.right-footer {
+    float: left;
+    width: 42em;
+    background-color: #D3D3D3;
+    padding: 15px 0 30px 350px;
 }

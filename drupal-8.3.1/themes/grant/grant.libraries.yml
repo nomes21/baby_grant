@@ -31,3 +31,10 @@ slick:
   dependencies:
     - core/jquery
 
+
+scroll-to:
+  version: 2.1.2
+  js: 
+    vendor/jquery.scrollTo/jquery.scrollTo.min.js: {}
+  dependencies:
+    - core/jquery

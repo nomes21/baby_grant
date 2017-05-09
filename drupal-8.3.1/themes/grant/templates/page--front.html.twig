@@ -42,6 +42,7 @@
  * @see html.html.twig
  */
 #}
+{{ attach_library('grant/scroll-to') }}
 <html lang="en">
 <head>
     <!-- attach_library('grant/slick') -->
@@ -59,11 +60,11 @@
 <body>
 {{ page.header }}
 {{ page.hero }}
+<a href="#" id="go-to-tagline-text">Here</a>
 {{ page.tagline }}
 {{ page.after_content }}
-{{ page.footer_first }}
-{{ page.footer_bottom_right }}
-{{ page.footer_bottom_left }}
+{{ page.footer }}
+
     
 <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
 <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
