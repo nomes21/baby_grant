@@ -7,27 +7,12 @@
             slidesToScroll: 1
         });
         
-        //-- Sticky Header
-        (function() {
+    //-- Scroll to
+        $('#go-to-tagline-text').on('click', function(e){
+            e.preventDefault()
+            $.scrollTo('#block-taglinetext', 800);
+        });
 
-            var mainnav = $('.header');
-
-            if (mainnav.length) {
-                var elmHeight = $('.header').outerHeight(true);
-                $(window).scroll(function() {
-
-                    var scrolltop = $(window).scrollTop();
-                    if (scrolltop > elmHeight) {
-                        if (!mainnav.hasClass('sticky')) {
-                            mainnav.addClass('sticky');
-                        }
-
-                    } else {
-                        mainnav.removeClass('sticky');
-                    }
-                })
-            }
-        })();
         
     });
 }(jQuery);
